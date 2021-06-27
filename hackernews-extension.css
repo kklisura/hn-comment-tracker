@@ -1,0 +1,16 @@
+.hackernews-extension__comment-has-been-read {
+  position: relative;
+  background-color: #f6f6ee;
+  opacity: 0.8;
+  background: repeating-linear-gradient( -45deg, #ebebeb, #ebebeb 2px, #f6f6ee 2px, #f6f6ee 10px );
+}
+
+.hackernews-extension__comment-has-been-read::after {
+  content: ' ';
+  height: 100%;
+  background-color: #ff5800;
+  width: 2px;
+  position: absolute;
+  border-radius: 2px;
+  right: 0;
+}

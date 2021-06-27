@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "hn-comment-tracker",
+  "version": "1",
+  "description": "Tracks which comments have been read on HN.",
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "css": ["hackernews-extension.css"],
+      "js": ["hackernews-extension.js"]
+    }
+  ]
+}
